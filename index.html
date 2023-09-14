@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Keeper</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="title-contaner">
+            <h1 class="title">Add book mark</h1>
+        </div>
+
+        <div class="list-item-contaner">
+            <div class="item">
+                <a href="http://google.com">Google</a>
+                <i class="fa-solid fa-xmark" id="remove">x</i>
+            </div> 
+            <!-- <div class="item">
+                <a href="http://google.com">Youtube</a>
+                <i class="fa-solid fa-xmark" id="remove">x</i>
+            </div> 
+            <div class="item">
+                <a href="http://google.com">Facebook</a>
+                <i class="fa-solid fa-xmark" id="remove">x</i>
+            </div> 
+            <div class="item">
+                <a href="http://google.com">Github</a>
+                <i class="fa-solid fa-xmark" id="remove">x</i>
+            </div>  -->
+        </div>
+    </div>
+
+    <div class="overlay hidden" >
+        <div class="center">
+            <div class="overlay-content">
+                <div class="overlayTitle">
+                    <h2 class="overlay-title">Add Bookmark</h2>
+                    <i class="fa-solid fa-xmark" id="overlay-close">x</i>
+                </div>
+                <form class="form">
+                    <label for="website-name">Website Name</label>
+                    <input type="text" id="website-name" required>
+    
+                    <label for="website-link">Website URL</label>
+                    <input type="text" id="website-link" required>
+    
+                    <input type="submit" value="Save" class="save">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
