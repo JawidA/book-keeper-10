@@ -11,9 +11,6 @@ const bookMarks = [];
 
 
 
-
-
-
 function overlayRemove () {
     overlay.classList.toggle('hidden')
 }
