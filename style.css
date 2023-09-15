@@ -42,7 +42,7 @@ body {
     margin: 5px 3px;
 }
 
-.item #remove {
+.item .remove {
     position: absolute;
     top: 0;
     right: 8px;
@@ -125,6 +125,13 @@ body {
 i {
     cursor: pointer;
     font-style: normal;
+}
+
+.item .fav-icon {
+    vertical-align: sub;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
 }
 
 
