@@ -25,10 +25,11 @@ body {
 
 .title {
     cursor: pointer;
+    text-align: center;
 }
 
 .main .title-contaner .title , .item{
-    padding: 10px 30px;
+    padding: 15px 40px;
     background-color: rgba(0, 0, 0, 0.6);
     display: inline-block;
 }
@@ -44,12 +45,17 @@ body {
 
 .item .remove {
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 8px;
 }
 
 .item a {
     text-decoration: none;
+}
+
+.item a:hover,
+.item a:active {
+    text-decoration: underline;
 }
 
 /* =========================================================== */
@@ -139,5 +145,13 @@ i {
     .list-item-contaner .item {
         position: relative;
         display: block;
+    }
+
+    .main .list-item-contaner {
+        padding: 20px 10px;
+    }
+
+    .title {
+        font-size: 2rem;
     }
 }
